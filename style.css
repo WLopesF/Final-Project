@@ -1,9 +1,9 @@
-@media only screen and (min-width: 1601px) {
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
 
         body {
             font-family: Times New Roman, sans-serif;
             line-height: 1.6;
-            background-color: lightblue;
+            background-color: lightblue !important;
             margin: 0;
             padding: 0;
             border: 1px solid black;
