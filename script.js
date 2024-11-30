@@ -38,7 +38,11 @@ function verificarRespostas() {
         resultDiv.innerHTML = `Razoável... Estude um pouco mais, pois você acertou ${pontuacao} de ${Object.keys(respostasCorretas).length} perguntas. Volte quando souber mais um pouco!`;
         resultDiv.innerHTML = "yellow";
     } else if pontuacao in range(1,4) { 
-        resultDiv.innerHTML = `Você foi mal... Que pena. Recomendo fazer um curso na área de programação. Você acertou ${pontuacao} de ${Object.keys(respostasCorretas).length} perguntas. Tem jeito!;
-        resultDiv.style.color = "orange";
-    } else 
-        
+        resultDiv.innerHTML = `Você foi mal... Que pena. Recomendo fazer um curso na área de programação. Você acertou ${pontuacao} de ${Object.keys(respostasCorretas).length} perguntas. Tem jeito!`;
+        resultDiv.style.color = "red";
+    } else (pontuacao === 0) {
+        resultDiv.innerHTML = `Nenhuma? É realmente uma pena. Se aprofunde mais e ganhe mais conhecimento. Você acertou ${pontuacao} de ${Object.keys(respostasCorretas).length} perguntas. Você tem muito a melhorar!`;
+        resultDiv.style.color = "darkred";
+    }
+}
+    
