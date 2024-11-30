@@ -19,6 +19,8 @@ function verificarRespostas() {
             }
 
             resultDiv.style.display = 'block';
-            resultDiv.innerHTML = `Você acertou ${pontuacao} de ${Object.keys(respostasCorretas).length} perguntas!`;
+            if (pontuacao == 5) {
+                resultDiv.innerHTML = `Parabéns! Você acertou ${pontuacao} de ${Object.keys(respostasCorretas).length} perguntas!`;
+                resultDiv.innerHTML = "green";
         }
-
+}
