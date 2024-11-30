@@ -6,6 +6,7 @@
             background-color: lightblue;
             margin: 0;
             padding: 0;
+            border: 1px solid black;
         }
 
         .titulo {
@@ -29,7 +30,7 @@
 
         h1 {
             display: flex;
-            text-align: center;
+            justify-content: center;
             color: darkblue;
         }
 
