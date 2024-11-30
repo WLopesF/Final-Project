@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConhecimentoPyTest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header><b>Quiz de Conhecimento em Python</b></header>
+  
+  <br>
+  <br>
+  
+    <div class="container">
+      
+      <h1>Questões</h1>
+      
+        <form id="quizForm">
+            <div class="question">
+                <p>1. Qual é a função para exibir algo na tela em Python?</p>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="a"> print()</label>
+                    <label><input type="radio" name="q1" value="b"> echo()</label>
+                    <label><input type="radio" name="q1" value="c"> display()</label>
+                </div>
+            </div>
+
+          <br>
+          <br>
+          
+            <div class="question">
+                <p>2. Qual estrutura de repetição é usada para iterar sobre uma lista?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="a"> while</label>
+                    <label><input type="radio" name="q2" value="b"> for</label>
+                    <label><input type="radio" name="q2" value="c"> loop</label>
+                </div>
+            </div>
+          
+          <br>
+          <br>
+
+            <div class="question">
+                <p>3. Como você define uma função em Python?</p>
+                <div class="options">
+                    <label><input type="radio" name="q3" value="a"> func nome_da_funcao():</label>
+                    <label><input type="radio" name="q3" value="b"> def nome_da_funcao():</label>
+                    <label><input type="radio" name="q3" value="c"> function nome_da_funcao():</label>
+                </div>
+            </div>
+          
+          <br>
+          <br>
+          
+             <div class="question">
+                <p>4. Qual o valor usado quando o número inserido deve ser inteiro?</p>
+                   <div class="options">
+                     <label><input type="radio" name="q4" value="a"> whole </label>
+                     <label><input type="radio" name="q4" value="b"> real </label>
+                     <label><input type="radio" name="q4" value="c"> imt </label>
+               </div>
+             </div>
+          
+             <div class="question">
+                <p>5. Qual a biblioteca Python que permite criar uma relação do código Python para HTML?</p>
+                   <div class="options">
+                     <label><input type="radio" name="q5" value="a"> PyTML </label>
+                     <label><input type="radio" name="q5" value="b"> Flask </label>
+                     <label><input type="radio" name="q5" value="c"> PyWeb </label>
+               </div>
+          </div>
+
+            <button type="button" onclick="verificarRespostas()">Enviar</button>
+        </form>
+      
+      <br>
+      <br>
+     
+        <div class="result" id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
