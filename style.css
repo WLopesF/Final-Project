@@ -19,9 +19,9 @@
 
         .container {
             max-width: 600px;
-            margin: 50px auto;
+            margin: 0.5em;
             background: lightblue;
-            padding: 20px;
+            padding: 0.5em;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             color: darkblue;
