@@ -21,6 +21,6 @@ function verificarRespostas() {
             resultDiv.style.display = 'block';
             if (pontuacao == 5) {
                 resultDiv.innerHTML = `Parabéns! Você acertou ${pontuacao} de ${Object.keys(respostasCorretas).length} perguntas!`;
-                resultDiv.innerHTML = "green";
+                resultDiv.style.color = "green";
         }
 }
