@@ -6,11 +6,11 @@ function verificarRespostas() {
         q3: 'b',
         q4: 'c',
         q5: 'b',
-        q6: 'a', 'c',
+        q6: ['a', 'c',],
         q7: 'c',
-        q8: 'a', 'b',
-        q9: 'a', 'b', 'c',
-        q10: 'a', 'b'
+        q8: ['a', 'b'],
+        q9: ['a', 'b', 'c'],
+        q10: ['a', 'b']
     };
 
     const form = document.getElementById('quizForm');
