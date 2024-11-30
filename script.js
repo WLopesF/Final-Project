@@ -5,8 +5,8 @@ function calcularPontuacaoQuiz() {
         q3: 'b',
         q4: 'c',
         q5: 'b',
-        q6: ['a', 'c'], 
-        q7: 'c',
+        q6: 'b', 
+        q7: ['a', 'c'],
         q8: ['a', 'b'], 
         q9: ['a', 'b', 'c'], 
         q10: ['a', 'b'] 
