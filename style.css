@@ -10,7 +10,7 @@
 
         .titulo {
             display: flex;
-            text-align: center;
+            justify-content: center;
             align-items: center;
             color: darkblue;
             font-size: x-large;
@@ -19,11 +19,12 @@
         .container {
             max-width: 600px;
             margin: 50px auto;
-            background: #fff;
+            background: lightblue;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             color: darkblue;
+            border: 1px solid black;
         }
 
         h1 {
